@@ -1,0 +1,38 @@
+.plane-component {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.plane-component__left,
+.plane-component__right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 48%;
+}
+
+.plane-component__left {
+  justify-content: flex-end;
+}
+
+.plane-component__right {
+  justify-content: flex-start;
+}
+
+.seat-component {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.seat-component:hover {
+  background-color: #ddd;
+}

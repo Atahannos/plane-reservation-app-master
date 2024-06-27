@@ -1,0 +1,93 @@
+.trip-details__wrapper {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.trip-details__components {
+  user-select: none;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #2c2c2c;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.trip-details-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.trip-details-company-text {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.trip-details-row {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trip-details-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #dcdcdc;
+}
+
+.trip-details__col {
+  width: 100%;
+}
+
+.trip-details-more {
+  cursor: pointer;
+  user-select: none;
+  font-size: 24px;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+.trip-details-more:hover {
+  color: #ff6347;
+}
+
+@media (max-width: 768px) {
+  .trip-details__components {
+    padding: 15px;
+  }
+
+  .trip-details-company {
+    margin-bottom: 15px;
+  }
+
+  .trip-details-company-text {
+    font-size: 20px;
+  }
+
+  .trip-details-text {
+    font-size: 18px;
+  }
+
+  .trip-details-more {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .trip-details-company-text {
+    font-size: 18px;
+  }
+
+  .trip-details-text {
+    font-size: 16px;
+  }
+
+  .trip-details-more {
+    font-size: 18px;
+  }
+}

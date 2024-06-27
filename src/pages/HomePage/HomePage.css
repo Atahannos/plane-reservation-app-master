@@ -1,0 +1,118 @@
+
+.home-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/973/422/436/airplane-4k-background-desktop-wallpaper-preview.jpg");
+  min-height: 100vh;
+  justify-content: flex-start;
+  padding: 20px 20px 0 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.admin-div {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 10px 20px 0 20px;
+}
+
+.admin-img {
+  border-radius: 50%;
+  width: 60px;
+  transition: transform 0.3s ease;
+}
+
+.admin-img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.project-name-div {
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  width: 90%;
+  max-width: 1000px;
+}
+
+.project-name {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: rgb(34, 34, 34);
+  transition: color 0.3s ease;
+}
+
+.project-name-div:hover {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+
+.name-div {
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 10px 20px;
+  margin-top: auto;
+}
+
+
+@media (max-width: 768px) {
+  .admin-div {
+    justify-content: center;
+    padding: 10px 10px 0 10px;
+  }
+
+  .admin-img {
+    width: 50px;
+  }
+
+  .project-name-div {
+    padding: 10px;
+    margin: 15px auto;
+  }
+
+  .project-name {
+    font-size: 1.2em;
+  }
+
+  .name-div {
+    font-size: 20px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin-img {
+    width: 40px;
+  }
+
+  .project-name-div {
+    padding: 10px;
+    margin: 10px auto;
+  }
+
+  .project-name {
+    font-size: 1em;
+  }
+
+  .name-div {
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+  }
+}

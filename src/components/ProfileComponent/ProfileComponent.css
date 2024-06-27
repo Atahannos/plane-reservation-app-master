@@ -1,0 +1,36 @@
+.profile-div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-form {
+    width: 100%;
+}
+
+.profile-form .ant-row {
+    margin-bottom: 16px;
+}
+
+.profile-form .ant-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-form .ant-form-item {
+    margin-bottom: 0;
+}
+
+.profile-btn {
+    width: 100%;
+    background-color: #b08afb;
+    border: none;
+    color: white;
+}
+
+.profile-btn:hover {
+    background-color: #40a9ff;
+}

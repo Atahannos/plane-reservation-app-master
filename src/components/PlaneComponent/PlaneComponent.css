@@ -1,0 +1,43 @@
+.plane-component__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.plane-component__passenger {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.plane-component__buy_button__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.plane-component__buy__button {
+  width: 250px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 25px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #d7b6f3;
+}
+
+.plane-component__buy__botton:hover{
+  background-color: #f6ecff;
+  color: white;
+}
